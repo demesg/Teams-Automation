@@ -8,12 +8,6 @@ Param(
 )
 Write-Output  "Processing teamname: $teamname ,owner: $owner"
 
-# Azure AD OAuth Application Token for Graph API
-# Get OAuth token for a AAD Application (returned as $token)
-# Application (client) ID, tenant ID and secret
-# Application (client) ID, tenant ID and secret
-# https://alexholmeset.blog/2019/03/05/trigger-azure-automation-with-teams-team-request-form/
-# https://teams.microsoft.com/l/team/19%3a23552ad849024d17b8d59ca008f67d16%40thread.tacv2/conversations?groupId=7474b7b2-bf8f-42b4-bace-d0ff04c77072&tenantId=89557f0a-0d96-490e-9cd4-a34267beb2de
 $teamname = " "
 $template = "Projekt-Byggherre"
 $owner = "userm@ab.com"
